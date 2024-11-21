@@ -1,17 +1,16 @@
 #include "distances.h"
 
-// Função para calcular a distância Euclidiana (EUC_2D)
-int calculateEUC_2D(const Node& a, const Node& b) {
-    double xd = a.x - b.x;
-    double yd = a.y - b.y;
-    return static_cast<int>(std::round(std::sqrt(xd * xd + yd * yd)));
+// Função para calcular a distância Euclidiana (distância contínua)
+double calculateEUC_2D(const Node& node1, const Node& node2) {
+    double dx = node1.x - node2.x;
+    double dy = node1.y - node2.y;
+    return std::sqrt(dx * dx + dy * dy);
 }
 
-// Função para calcular a distância pseudo-Euclidiana (ATT)
-int calculateATT(const Node& a, const Node& b) {
-    double xd = a.x - b.x;
-    double yd = a.y - b.y;
-    double rij = std::sqrt((xd * xd + yd * yd) / 10.0);
-    int tij = static_cast<int>(std::round(rij));
-    return (tij < rij) ? tij + 1 : tij;
+// Função para calcular a distância ATT (distância ajustada)
+double calculateATT(const Node& node1, const Node& node2) {
+    double dx = std::abs(node1.x - node2.x);
+    double dy = std::abs(node1.y - node2.y);
+    double rij = std::sqrt(dx * dx + dy * dy);
+    return static_cast<int>(std::round(rij));  // ATT arredonda a distância
 }

@@ -5,9 +5,9 @@
 #include <cmath>  // Para funções matemáticas
 
 // Função para calcular a distância Euclidiana (EUC_2D)
-int calculateEUC_2D(const Node& a, const Node& b);
+double calculateEUC_2D(const Node& node1, const Node& node2);
 
 // Função para calcular a distância pseudo-Euclidiana (ATT)
-int calculateATT(const Node& a, const Node& b);
+double calculateATT(const Node& node1, const Node& node2);
 
 #endif // DISTANCES_H

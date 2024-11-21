@@ -71,7 +71,7 @@ void processFiles(const std::vector<std::string>& inputFiles, const std::string&
 
         // Inicializar a matriz de adjacência
         std::size_t n = nodes.size();
-        std::vector<std::vector<int>> distanceMatrix(n, std::vector<int>(n, 0));
+        std::vector<std::vector<double>> distanceMatrix(n, std::vector<double>(n, 0));
 
         // Preencher a matriz de adjacência com base no tipo de distância
         for (std::size_t i = 0; i < n; ++i) {
@@ -92,7 +92,7 @@ void processFiles(const std::vector<std::string>& inputFiles, const std::string&
         const auto& preorder = result.second;
 
         // Calcular a distância total
-        int totalDistance = calculateTotalDistanceAprox(preorder, distanceMatrix);
+        double totalDistance = calculateTotalDistanceAprox(preorder, distanceMatrix);
 
         // Armazena o resultado no arquivo de saída
         out << "HEURISTICA APROX - TSP TOUR " << "\n";
@@ -100,9 +100,9 @@ void processFiles(const std::vector<std::string>& inputFiles, const std::string&
 
 
         std::vector<size_t> tour = nearestNeighbor(distanceMatrix);
-        int totalDistanceTwo = calculateTotalDistanceNeighbor(tour, distanceMatrix);
+        double totalDistanceTwo = calculateTotalDistanceNeighbor(tour, distanceMatrix);
 
-               // Armazena o resultado no arquivo de saída
+        // Armazena o resultado no arquivo de saída
         out << "HEURISTICA NEAREST NEIGHBOR" << "\n";
         out << inputFile << " - Distância total: " << totalDistanceTwo << "\n";
         out << "\n";

@@ -6,10 +6,10 @@
 
 
 
-std::pair<std::vector<std::pair<int, int>>, std::vector<int>> primMSTWithPreorder(const std::vector<std::vector<int>>& graph) {
+std::pair<std::vector<std::pair<int, int>>, std::vector<int>> primMSTWithPreorder(const std::vector<std::vector<double>>& graph) {
     std::size_t n = graph.size();
     std::vector<bool> inMST(n, false);               // Marca os vértices incluídos na MST
-    std::vector<int> minWeight(n, std::numeric_limits<int>::max()); // Peso mínimo para cada nó
+    std::vector<double> minWeight(n, std::numeric_limits<double>::max()); // Peso mínimo para cada nó
     std::vector<int> parent(n, -1);                  // Armazena o pai de cada nó na MST
     std::vector<std::pair<int, int>> mstEdges;       // Armazena as arestas da MST
 
@@ -56,8 +56,8 @@ std::pair<std::vector<std::pair<int, int>>, std::vector<int>> primMSTWithPreorde
     return {mstEdges, preorder};
 }
 
-int calculateTotalDistanceAprox(const std::vector<int>& preorder, const std::vector<std::vector<int>>& distanceMatrix) {
-    int totalDistance = 0;
+double calculateTotalDistanceAprox(const std::vector<int>& preorder, const std::vector<std::vector<double>>& distanceMatrix) {
+    double totalDistance = 0;
     std::size_t n = preorder.size(); // Use std::size_t aqui, não int
     
     // Percorre os vértices na ordem dada pela sequência de pré-ordem

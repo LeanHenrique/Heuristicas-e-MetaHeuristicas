@@ -1,9 +1,10 @@
 #include <vector>
 #include <iostream>
 #include <limits>
+#include "nearestneighbor.h"
 
 // Função que aplica a heurística do vizinho mais próximo
-std::vector<std::size_t> nearestNeighbor(const std::vector<std::vector<int>>& distanceMatrix) {
+std::vector<std::size_t> nearestNeighbor(const std::vector<std::vector<double>>& distanceMatrix) {
     std::size_t n = distanceMatrix.size();
     std::vector<bool> visited(n, false);  // Marca os nós visitados
     std::vector<std::size_t> tour;        // Alterado para armazenar std::size_t em vez de int
@@ -14,7 +15,7 @@ std::vector<std::size_t> nearestNeighbor(const std::vector<std::vector<int>>& di
     // Percorre todos os nós
     for (std::size_t i = 1; i < n; ++i) {
         std::size_t nearestNeighbor = std::numeric_limits<std::size_t>::max();  // Alterado para std::size_t
-        int minDistance = std::numeric_limits<int>::max();
+        double minDistance = std::numeric_limits<double>::max();  // Alterado para double
 
         // Encontra o vizinho mais próximo
         for (std::size_t j = 0; j < n; ++j) {
@@ -34,8 +35,8 @@ std::vector<std::size_t> nearestNeighbor(const std::vector<std::vector<int>>& di
 }
 
 // Função para calcular a distância total do percurso
-int calculateTotalDistanceNeighbor(const std::vector<std::size_t>& tour, const std::vector<std::vector<int>>& distanceMatrix) {
-    int totalDistance = 0;
+double calculateTotalDistanceNeighbor(const std::vector<std::size_t>& tour, const std::vector<std::vector<double>>& distanceMatrix) {
+    double totalDistance = 0.0;
 
     for (std::size_t i = 0; i < tour.size() - 1; ++i) {
         std::size_t u = tour[i];
