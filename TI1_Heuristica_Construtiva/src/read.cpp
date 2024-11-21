@@ -1,4 +1,5 @@
 #include "distances.h"
+#include "nearestneighbor.h"
 #include "aprox.h"
 #include "read.h"
 
@@ -91,10 +92,20 @@ void processFiles(const std::vector<std::string>& inputFiles, const std::string&
         const auto& preorder = result.second;
 
         // Calcular a distância total
-        int totalDistance = calculateTotalDistance(preorder, distanceMatrix);
+        int totalDistance = calculateTotalDistanceAprox(preorder, distanceMatrix);
 
         // Armazena o resultado no arquivo de saída
+        out << "HEURISTICA APROX - TSP TOUR " << "\n";
         out << inputFile << " - Distância total: " << totalDistance << "\n";
+
+
+        std::vector<size_t> tour = nearestNeighbor(distanceMatrix);
+        int totalDistanceTwo = calculateTotalDistanceNeighbor(tour, distanceMatrix);
+
+               // Armazena o resultado no arquivo de saída
+        out << "HEURISTICA NEAREST NEIGHBOR" << "\n";
+        out << inputFile << " - Distância total: " << totalDistanceTwo << "\n";
+        out << "\n";
     }
 
     out.close();

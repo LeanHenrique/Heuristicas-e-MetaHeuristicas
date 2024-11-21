@@ -8,7 +8,7 @@
 std::pair<std::vector<std::pair<int, int>>, std::vector<int>> primMSTWithPreorder(const std::vector<std::vector<int>>& graph);
 
 // Função para calcular a distância total usando a sequência em pré-ordem e a matriz de distâncias
-int calculateTotalDistance(const std::vector<int>& preorder, const std::vector<std::vector<int>>& distanceMatrix);
+int calculateTotalDistanceAprox(const std::vector<int>& preorder, const std::vector<std::vector<int>>& distanceMatrix);
 
 // Função auxiliar para realizar DFS na árvore geradora mínima
 void dfs(const std::vector<std::vector<int>>& tree, int current, std::vector<bool>& visited, std::vector<int>& preorder);

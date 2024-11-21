@@ -1,21 +1,105 @@
+HEURISTICA APROX - TSP TOUR 
 instances/kroB200.tsp - Distância total: 40327
+HEURISTICA NEAREST NEIGHBOR
+instances/kroB200.tsp - Distância total: 36980
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroB150.tsp - Distância total: 35563
+HEURISTICA NEAREST NEIGHBOR
+instances/kroB150.tsp - Distância total: 34499
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroA100.tsp - Distância total: 27205
+HEURISTICA NEAREST NEIGHBOR
+instances/kroA100.tsp - Distância total: 27807
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroA200.tsp - Distância total: 40001
+HEURISTICA NEAREST NEIGHBOR
+instances/kroA200.tsp - Distância total: 35859
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroB100.tsp - Distância total: 25056
+HEURISTICA NEAREST NEIGHBOR
+instances/kroB100.tsp - Distância total: 29158
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr107.tsp - Distância total: 55513
+HEURISTICA NEAREST NEIGHBOR
+instances/pr107.tsp - Distância total: 46680
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr124.tsp - Distância total: 72558
+HEURISTICA NEAREST NEIGHBOR
+instances/pr124.tsp - Distância total: 69297
+
+HEURISTICA APROX - TSP TOUR 
 instances/rat195.tsp - Distância total: 3238
+HEURISTICA NEAREST NEIGHBOR
+instances/rat195.tsp - Distância total: 2752
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr144.tsp - Distância total: 77921
+HEURISTICA NEAREST NEIGHBOR
+instances/pr144.tsp - Distância total: 61652
+
+HEURISTICA APROX - TSP TOUR 
 instances/att48.tsp - Distância total: 13515
+HEURISTICA NEAREST NEIGHBOR
+instances/att48.tsp - Distância total: 12861
+
+HEURISTICA APROX - TSP TOUR 
 instances/rat99.tsp - Distância total: 1662
+HEURISTICA NEAREST NEIGHBOR
+instances/rat99.tsp - Distância total: 1554
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroC100.tsp - Distância total: 27948
+HEURISTICA NEAREST NEIGHBOR
+instances/kroC100.tsp - Distância total: 26227
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroD100.tsp - Distância total: 26860
+HEURISTICA NEAREST NEIGHBOR
+instances/kroD100.tsp - Distância total: 26947
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroA150.tsp - Distância total: 33952
+HEURISTICA NEAREST NEIGHBOR
+instances/kroA150.tsp - Distância total: 33633
+
+HEURISTICA APROX - TSP TOUR 
 instances/st70.tsp - Distância total: 849
+HEURISTICA NEAREST NEIGHBOR
+instances/st70.tsp - Distância total: 830
+
+HEURISTICA APROX - TSP TOUR 
 instances/berlin52.tsp - Distância total: 9441
+HEURISTICA NEAREST NEIGHBOR
+instances/berlin52.tsp - Distância total: 8980
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr152.tsp - Distância total: 79116
+HEURISTICA NEAREST NEIGHBOR
+instances/pr152.tsp - Distância total: 85699
+
+HEURISTICA APROX - TSP TOUR 
 instances/kroE100.tsp - Distância total: 29869
+HEURISTICA NEAREST NEIGHBOR
+instances/kroE100.tsp - Distância total: 27460
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr136.tsp - Distância total: 134330
+HEURISTICA NEAREST NEIGHBOR
+instances/pr136.tsp - Distância total: 120769
+
+HEURISTICA APROX - TSP TOUR 
 instances/lin105.tsp - Distância total: 19310
+HEURISTICA NEAREST NEIGHBOR
+instances/lin105.tsp - Distância total: 20356
+
+HEURISTICA APROX - TSP TOUR 
 instances/pr76.tsp - Distância total: 138574
+HEURISTICA NEAREST NEIGHBOR
+instances/pr76.tsp - Distância total: 153462
+

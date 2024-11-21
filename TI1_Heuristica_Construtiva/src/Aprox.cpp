@@ -56,7 +56,7 @@ std::pair<std::vector<std::pair<int, int>>, std::vector<int>> primMSTWithPreorde
     return {mstEdges, preorder};
 }
 
-int calculateTotalDistance(const std::vector<int>& preorder, const std::vector<std::vector<int>>& distanceMatrix) {
+int calculateTotalDistanceAprox(const std::vector<int>& preorder, const std::vector<std::vector<int>>& distanceMatrix) {
     int totalDistance = 0;
     std::size_t n = preorder.size(); // Use std::size_t aqui, não int
     
