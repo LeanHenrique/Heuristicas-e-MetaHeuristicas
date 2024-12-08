@@ -1,0 +1,60 @@
+HEURISTICA VND
+instances/kroB200.tsp - Distância total: 32195.9
+
+HEURISTICA VND
+instances/kroB150.tsp - Distância total: 27969.7
+
+HEURISTICA VND
+instances/kroA100.tsp - Distância total: 22327.8
+
+HEURISTICA VND
+instances/kroA200.tsp - Distância total: 30740.2
+
+HEURISTICA VND
+instances/kroB100.tsp - Distância total: 22743.4
+
+HEURISTICA VND
+instances/pr107.tsp - Distância total: 44610.9
+
+HEURISTICA VND
+instances/pr124.tsp - Distância total: 62757
+
+HEURISTICA VND
+instances/rat195.tsp - Distância total: 2458.85
+
+HEURISTICA VND
+instances/pr144.tsp - Distância total: 61243.8
+
+HEURISTICA VND
+instances/rat99.tsp - Distância total: 1315.37
+
+HEURISTICA VND
+instances/kroC100.tsp - Distância total: 22533.7
+
+HEURISTICA VND
+instances/kroD100.tsp - Distância total: 23155.4
+
+HEURISTICA VND
+instances/kroA150.tsp - Distância total: 28930.3
+
+HEURISTICA VND
+instances/st70.tsp - Distância total: 727.199
+
+HEURISTICA VND
+instances/berlin52.tsp - Distância total: 8060.65
+
+HEURISTICA VND
+instances/pr152.tsp - Distância total: 75639
+
+HEURISTICA VND
+instances/kroE100.tsp - Distância total: 24003.6
+
+HEURISTICA VND
+instances/pr136.tsp - Distância total: 106521
+
+HEURISTICA VND
+instances/lin105.tsp - Distância total: 16177.2
+
+HEURISTICA VND
+instances/pr76.tsp - Distância total: 112277
+
